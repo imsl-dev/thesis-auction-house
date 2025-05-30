@@ -18,7 +18,6 @@ public class UserService {
     private final UserRepository userRepository;
 
 
-
     public Boolean saveUserImage(Long userId, MultipartFile imageFile) {
 
         try {
